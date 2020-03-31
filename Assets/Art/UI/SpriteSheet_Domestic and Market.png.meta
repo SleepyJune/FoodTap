@@ -1,0 +1,955 @@
+fileFormatVersion: 2
+guid: c83f5e6d367e13f4ea586d0cf4f8c998
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4799157012093463765
+    second: SpriteSheet_Domestic and Market_0
+  - first:
+      213: 4480119667184297470
+    second: SpriteSheet_Domestic and Market_1
+  - first:
+      213: 9163037257405853292
+    second: SpriteSheet_Domestic and Market_2
+  - first:
+      213: -1250443081669230960
+    second: SpriteSheet_Domestic and Market_3
+  - first:
+      213: -1133350901907095039
+    second: SpriteSheet_Domestic and Market_4
+  - first:
+      213: 9139901125087611832
+    second: SpriteSheet_Domestic and Market_5
+  - first:
+      213: -4567373270397942831
+    second: SpriteSheet_Domestic and Market_6
+  - first:
+      213: -1430094919415306664
+    second: SpriteSheet_Domestic and Market_7
+  - first:
+      213: 5498900105060890234
+    second: SpriteSheet_Domestic and Market_8
+  - first:
+      213: -1550642089573757785
+    second: SpriteSheet_Domestic and Market_9
+  - first:
+      213: -4051352498738818658
+    second: SpriteSheet_Domestic and Market_10
+  - first:
+      213: -2967498065158410239
+    second: SpriteSheet_Domestic and Market_11
+  - first:
+      213: 1543436480018610649
+    second: SpriteSheet_Domestic and Market_12
+  - first:
+      213: 7095986062089057090
+    second: SpriteSheet_Domestic and Market_13
+  - first:
+      213: 1873273270238880886
+    second: SpriteSheet_Domestic and Market_14
+  - first:
+      213: 614235349284118265
+    second: SpriteSheet_Domestic and Market_15
+  - first:
+      213: -6012232777153794290
+    second: SpriteSheet_Domestic and Market_16
+  - first:
+      213: -1791256401964593492
+    second: SpriteSheet_Domestic and Market_17
+  - first:
+      213: 1212587440301036000
+    second: SpriteSheet_Domestic and Market_18
+  - first:
+      213: 3815464553240611144
+    second: SpriteSheet_Domestic and Market_19
+  - first:
+      213: 68955127394853735
+    second: SpriteSheet_Domestic and Market_20
+  - first:
+      213: 4045909595266878216
+    second: SpriteSheet_Domestic and Market_21
+  - first:
+      213: -7939482672082349058
+    second: SpriteSheet_Domestic and Market_22
+  - first:
+      213: -4357593378108747793
+    second: SpriteSheet_Domestic and Market_23
+  - first:
+      213: -8059177632418686004
+    second: SpriteSheet_Domestic and Market_24
+  - first:
+      213: -2406016726945508885
+    second: SpriteSheet_Domestic and Market_25
+  - first:
+      213: -5104210341982392386
+    second: SpriteSheet_Domestic and Market_26
+  - first:
+      213: 1420619649189103653
+    second: SpriteSheet_Domestic and Market_27
+  - first:
+      213: -6341826697498307826
+    second: SpriteSheet_Domestic and Market_28
+  - first:
+      213: -5209471068274546843
+    second: SpriteSheet_Domestic and Market_29
+  - first:
+      213: 9045949020411795701
+    second: SpriteSheet_Domestic and Market_30
+  - first:
+      213: 8484523353599204710
+    second: SpriteSheet_Domestic and Market_31
+  - first:
+      213: 3804527310553559621
+    second: SpriteSheet_Domestic and Market_32
+  - first:
+      213: 8038896502448977167
+    second: SpriteSheet_Domestic and Market_33
+  - first:
+      213: 1192970283592059012
+    second: SpriteSheet_Domestic and Market_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2196
+        width: 1065
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2318d0ef18f56db0800000000000000
+      internalID: -4799157012093463765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_1
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2665
+        width: 1084
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e2c1c9159c2e30800000000000000
+      internalID: 4480119667184297470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_2
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 2785
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e685776d5a92f70800000000000000
+      internalID: 9163037257405853292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_3
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 2785
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eb24174a885aee0800000000000000
+      internalID: -1250443081669230960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_4
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2418
+        width: 1084
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10285f50c578540f0800000000000000
+      internalID: -1133350901907095039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_5
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1493
+        width: 988
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb4a03e5a377de70800000000000000
+      internalID: 9139901125087611832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_6
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2225
+        width: 259
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30155a53e6d90c0800000000000000
+      internalID: -4567373270397942831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1564
+        width: 1003
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856e82d6f38472ce0800000000000000
+      internalID: -1430094919415306664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_8
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2066
+        width: 259
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a763389d284005c40800000000000000
+      internalID: 5498900105060890234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1429
+        width: 284
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7accf253c330b7ae0800000000000000
+      internalID: -1550642089573757785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1433
+        width: 277
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9118cc0e54b6c7c0800000000000000
+      internalID: -4051352498738818658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_11
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1432
+        width: 278
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f2927b3451d6d0800000000000000
+      internalID: -2967498065158410239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_12
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 879
+        width: 1082
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d973e41d436b6510800000000000000
+      internalID: 1543436480018610649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1328
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243f0f13ab10a7260800000000000000
+      internalID: 7095986062089057090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1338
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674a2df3d143ff910800000000000000
+      internalID: 1873273270238880886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1313
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe519abbc3368800800000000000000
+      internalID: 614235349284118265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1315
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa9c2b422409ca0800000000000000
+      internalID: -6012232777153794290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1049
+        width: 236
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae814bfacd2427e0800000000000000
+      internalID: -1791256401964593492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1069
+        width: 211
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e15e363ad9f3d010800000000000000
+      internalID: 1212587440301036000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_19
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1098
+        width: 141
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8494005cbc043f430800000000000000
+      internalID: 3815464553240611144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 880
+        width: 885
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763efc1b25af4f000800000000000000
+      internalID: 68955127394853735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 559
+        width: 987
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b0a3b3755f52830800000000000000
+      internalID: 4045909595266878216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_22
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 574
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3992e239a41d190800000000000000
+      internalID: -7939482672082349058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_23
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 681
+        width: 1059
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefcb3ef8e7b683c0800000000000000
+      internalID: -4357593378108747793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_24
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 527
+        width: 1037
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb19e584ac082090800000000000000
+      internalID: -8059177632418686004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 72
+        width: 243
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1d3c2d88c1c9ed0800000000000000
+      internalID: -2406016726945508885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 72
+        width: 244
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa34bbcb33a29b0800000000000000
+      internalID: -5104210341982392386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_27
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 73
+        width: 243
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5284bde4b0e07b310800000000000000
+      internalID: 1420619649189103653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_28
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 73
+        width: 244
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e035684183e4df7a0800000000000000
+      internalID: -6341826697498307826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_29
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 69
+        width: 243
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56722d31aad34b7b0800000000000000
+      internalID: -5209471068274546843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_30
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 436
+        width: 328
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f810f1e4baa98d70800000000000000
+      internalID: 9045949020411795701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_31
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 316
+        width: 916
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d59c389051fb570800000000000000
+      internalID: 8484523353599204710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_32
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54231d38e656cc430800000000000000
+      internalID: 3804527310553559621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_33
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05f99ee6c5ef8f60800000000000000
+      internalID: 8038896502448977167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Domestic and Market_34
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 10
+        width: 1009
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4880a1df6284e8010800000000000000
+      internalID: 1192970283592059012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
