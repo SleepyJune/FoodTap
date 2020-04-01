@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Assets.Game.BeltScene;
+using Assets.Game.CookingScene;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class GameManager : MonoBehaviour
     public BeltFoodManager beltFoodManager;
     public BeltRecipeManager beltRecipeManager;
 
-
+    public CookingFoodManager cookingFoodManager;
+    public BoardManager boardManager;
 
     public static GameManager instance
     {
