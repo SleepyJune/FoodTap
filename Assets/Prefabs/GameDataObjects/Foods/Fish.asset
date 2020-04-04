@@ -16,4 +16,4 @@ MonoBehaviour:
   id: 78
   icon: {fileID: 8188682129462126002, guid: 30413cba42350804e9328ac916d94c8f, type: 3}
   energy: 10
-  tileColor: {r: 1, g: 1, b: 1, a: 1}
+  cookingTime: 5

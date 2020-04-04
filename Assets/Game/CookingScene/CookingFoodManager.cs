@@ -11,12 +11,17 @@ namespace Assets.Game.CookingScene
     public class CookingFoodManager : MonoBehaviour
     {
         public CookingFoodItem foodPrefab;
+        public CookingFoodItem recipePrefab;
+
         public Transform foodParent;
 
         [NonSerialized]
         public List<CookingFoodItem> foodItems = new List<CookingFoodItem>();
 
-        public float spawnSpeed = 200;
+        [NonSerialized]
+        public float spawnSpeed = 2000;
+        [NonSerialized]
+        public float cookingSpeedMultiplier = 1.0f;
 
         [NonSerialized]
         public float lastSpawnTimer = 0;
@@ -33,31 +38,21 @@ namespace Assets.Game.CookingScene
         void Update()
         {
             SpawnFoods();
+        }
 
-            /*
-             * if (Input.GetMouseButtonDown(0))
+        public void Restart()
+        {
+            for(int i = foodItems.Count - 1; i >= 0; i--)
             {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
-                
-                if (hit)
-                {
-                    var foodItem = hit.collider.gameObject.GetComponent<CookingFoodItem>();
-
-                    Debug.Log(hit);
-
-                    if (foodItem != null)
-                    {
-                        RemoveFood(foodItem);
-                    }
-                }
+                RemoveFood(foodItems[i]);
             }
-             * */
+
+            lastSpawnTimer = Time.time;
         }
 
         void SpawnFoods()
         {
-            if (Time.time - lastSpawnTimer > spawnSpeed / 1000f)
+            if (Time.time - lastSpawnTimer > spawnSpeed / 1000.0f)
             {
                 CreateNewFood();
 
@@ -67,17 +62,23 @@ namespace Assets.Game.CookingScene
 
         void CreateNewFood()
         {
-            if(foodItems.Count >= maxFoodCount)
+            if(foodItems.Count >= maxFoodCount || GameManager.instance.cookingRecipeManager.currentRecipe == null)
             {
                 return;
             }
 
             var newFood = Instantiate(foodPrefab, foodParent);
 
-            var randomFoodObject = GameManager.instance.foodManager.GenerateRandomFood();
+            //var randomFoodObject = GameManager.instance.foodManager.GenerateRandomFood();
+
+            var randomFoodObject = GameManager.instance.cookingRecipeManager.GenerateRandomIngredient();
             newFood.SetFood(randomFoodObject);
 
+            SetFoodItem(newFood);
+        }
 
+        void SetFoodItem(CookingFoodItem newFood)
+        {
             var emptySlot = GameManager.instance.boardManager.GetEmptySlot();
 
             if (emptySlot != null)
@@ -114,10 +115,40 @@ namespace Assets.Game.CookingScene
             return distance <= radius1 + radius2;
         }
 
+        public void OnClickFood(CookingFoodItem food)
+        {
+            GameManager.instance.cookingRecipeManager.AddFood(food);
+            GenerateRandomRecipe();
+            RemoveFood(food);
+        }
+
         public void RemoveFood(CookingFoodItem food)
         {
             Destroy(food.gameObject);
             foodItems.Remove(food);
+        }
+
+        void GenerateRandomRecipe()
+        {
+            var randomMysteryRoll = UnityEngine.Random.Range(0, 1f);
+            if(randomMysteryRoll > .1f)
+            {
+                //return;
+            }
+
+            if (foodItems.Count >= maxFoodCount)
+            {
+                return;
+            }
+
+            var randomRecipe = GameManager.instance.foodManager.GenerateRandomRecipe();
+
+            var newFood = Instantiate(recipePrefab, foodParent) as CookingRecipeItem;
+                                    
+            newFood.SetMysteryFood(randomRecipe);
+
+            SetFoodItem(newFood);
+
         }
     }
 }

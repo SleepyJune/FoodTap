@@ -18,7 +18,7 @@ public class BoardManager : MonoBehaviour
 
     float xMin = 9999, xMax = 0, yMin = 9999, yMax = 0;
     float slotSize = 100;
-    
+            
     void Start()
     {
         uiSlots = new Dictionary<Vector3, Slot>();
@@ -168,7 +168,7 @@ public class BoardManager : MonoBehaviour
 
         //450, 900 - 150, 324
 
-        slotParent.localPosition = new Vector3(xStart, yStart + Screen.height / 4f, 0);
+        slotParent.localPosition = new Vector3(xStart, yStart + 1920 / 4f, 0);
 
         //Debug.Log()
 

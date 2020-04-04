@@ -9,6 +9,8 @@ public class FoodObject : GameDataObject
 
     public int energy;
 
+    public int cookingTime = 1;
+
     [System.NonSerialized]
     public bool isDish = false;
     
